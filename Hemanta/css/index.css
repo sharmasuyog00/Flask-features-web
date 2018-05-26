@@ -7,29 +7,23 @@ nav {
 }
 #nav1 ul {
 	text-align: right;
-	margin-left: 70%;
+	margin-left: 67%;
 }
 #nav1 ul a {
 	margin-left: 16px;
 }
 ul a:hover {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 }
+
 #intro {
 	padding: 14% 0;
 	background-size: cover;
 	height: 100%;
 	margin-top: 3%;
 }
-#get {
+#button {
 	background: #bab9b9;
-}
-#id1 {
-	background-size: cover;
-	background: url(images/bg.jpg);
-}
-#row1{
-	color: white;
 }
 #content {
 	color: black;
@@ -46,3 +40,58 @@ footer {
 #ft1 , #ft2 {
 	margin-top: 2%;
 }
+
+/*Media query for mobile*/
+
+/*For navbar*/
+@media screen and (max-width: 992px) {
+	#nav1 a:hover {
+		border-bottom: none; 
+	}
+
+}
+@media screen and (min-width: 992px) and (max-width: 1065px) {
+	#nav1 ul {
+		margin-left: 57%;
+	}
+}
+
+@media screen and (min-width: 1065px) and (max-width: 1124px) {
+	#nav1 ul {
+		margin-left: 61%;
+	}
+}
+
+@media screen and (min-width: 1124px) and (max-width: 1216px) {
+	#nav1 ul {
+		margin-left: 57%;
+	}
+}
+
+/*For #intro */
+@media screen and (max-width: 366px) {
+	#subi {
+		margin-top: 38%;
+	}
+}
+
+@media screen and (min-width: 366px) and (max-width: 458px) {
+	#subi {
+		margin-top: 44%;
+	}
+}
+@media screen and (min-width: 458px) and (max-width: 638px) {
+	#subi {
+		margin-top: 20%;
+	}
+}
+	
+
+
+
+
+
+
+
+
+
